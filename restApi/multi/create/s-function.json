@@ -2,7 +2,7 @@
   "name": "create",
   "handler": "multi/create/handler.handler",
   "runtime": "nodejs",
-  "timeout": 6,
+  "timeout": 300,
   "memorySize": 1024,
   "custom": {
     "excludePatterns": [],

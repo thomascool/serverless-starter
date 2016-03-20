@@ -2,7 +2,7 @@
   "name": "show",
   "handler": "multi/show/handler.handler",
   "runtime": "nodejs",
-  "timeout": 300,
+  "timeout": 6,
   "memorySize": 256,
   "custom": {
     "excludePatterns": [],

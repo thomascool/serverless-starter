@@ -1,0 +1,45 @@
+{
+  "name": "serverless-starter",
+  "version": "0.2.0",
+  "description": "A Serverless Project and its Serverless Plugin dependencies.",
+  "author": {
+    "name": "me"
+  },
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "dependencies": {
+    "serverless-optimizer-plugin": "^1.0.0"
+  },
+  "gitHead": "00c6596b098482e2cec7a35f9dfdf78381f6836a",
+  "_id": "serverless-starter@0.2.0",
+  "scripts": {},
+  "_shasum": "951d8f387d75afbbac9ceaf5893ffc4e371c4082",
+  "_from": "serverless-starter@latest",
+  "_npmVersion": "2.14.12",
+  "_nodeVersion": "4.2.6",
+  "_npmUser": {
+    "name": "ac360",
+    "email": "austen@servant.co"
+  },
+  "dist": {
+    "shasum": "951d8f387d75afbbac9ceaf5893ffc4e371c4082",
+    "tarball": "http://registry.npmjs.org/serverless-starter/-/serverless-starter-0.2.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ac360",
+      "email": "austen@servant.co"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/serverless-starter-0.2.0.tgz_1455215968713_0.15588788595050573"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/serverless-starter/-/serverless-starter-0.2.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

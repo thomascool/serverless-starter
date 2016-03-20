@@ -1,0 +1,12 @@
+{
+  "name": "serverless-starter",
+  "version": "0.0.1",
+  "profile": "serverless-v0.1.1",
+  "location": "https://github.com/...",
+  "author": "",
+  "description": "A starter boilerplate for new Serverless Projects using primarily nodejs",
+  "custom": {},
+  "plugins": [
+    "serverless-optimizer-plugin"
+  ]
+}
