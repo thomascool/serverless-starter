@@ -1,3 +1,5 @@
+process.env.TZ='America/Los_Angeles';
+
 var request = require('request'),
   fs = require('fs'),
   zlib = require('zlib'),

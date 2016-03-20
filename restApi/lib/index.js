@@ -1,6 +1,8 @@
 /**
  * Lib
  */
+process.env.TZ='America/Los_Angeles';
+
 var async = require('async'),
   _ = require('underscore'),
   zlib = require('zlib'),
