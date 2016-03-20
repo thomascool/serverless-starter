@@ -13,11 +13,11 @@ AWS.config.region = 'us-west-2';
 
 // Single - All
 module.exports.singleAll = function(event, cb) {
-var qQuote = require('./getOptionsQuote');
 // var singleAll = function(event, cb) {
 
 async.map(config.get('stockList.full'), function(item, ecb) {
-//async.each(["SVXY","UVXY","SPY","SPXL","SPLS","$SPX.X","$NDX.X","$RUT.X"], function(item, ecb) {
+// async.each(["SVXY","UVXY","SPY","SPXL","SPLS","$SPX.X","$NDX.X","$RUT.X"], function(item, ecb) {
+    var qQuote = require('./getOptionsQuote');
     var con;
     qQuote.getOptionsQuote(item, undefined, function(err, allData, stockTick) {
       var YYMMDD = (stockTick.createdDate.getFullYear().toString().substr(2,2) + '' + ('0'+(stockTick.createdDate.getMonth()+1)).slice(-2) + '' + ('0'+(stockTick.createdDate.getDate())).slice(-2));
@@ -87,7 +87,6 @@ module.exports.multiShow = function(event, cb) {
 
   return cb(null, response);
 };
-
 
 /*
 var testme = function() {

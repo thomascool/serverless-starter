@@ -286,7 +286,7 @@ var optionExtraction = function(options, fullpath, callback) {
 };
 
 
-exports.webRequest = function(newSymbol, filenames, callback) {
+exports.getOptionsQuote = function(newSymbol, filenames, callback) {
   async.parallel({
       CallGreeks : function(cb) {
         // Reset the stocktick for the new collection name
