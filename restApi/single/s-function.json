@@ -3,7 +3,7 @@
   "handler": "single/handler.handler",
   "runtime": "nodejs",
   "timeout": 300,
-  "memorySize": 1536,
+  "memorySize": 640,
   "custom": {
     "excludePatterns": [],
     "envVars": [],
